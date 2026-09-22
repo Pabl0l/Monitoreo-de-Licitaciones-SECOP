@@ -1,0 +1,11 @@
+# Tema base oscuro coherente con liquid glass (blanco / negro / azul oscuro).
+[theme]
+base = "dark"
+primaryColor = "#3B82F6"          # unico azul de acento (acciones, estados activos)
+backgroundColor = "#070B14"       # negro-azulado (base)
+secondaryBackgroundColor = "#0C1626"  # navy profundo (sidebar/superficies)
+textColor = "#F2F5FA"             # blanco
+font = "sans serif"
+
+[server]
+headless = true

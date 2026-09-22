@@ -1,0 +1,26 @@
+# --- Secrets & runtime data (NEVER commit) ---
+.env
+data/                     # secop.db, downloaded docs, logs
+data/deepseek_profile/    # persistent Chrome profile: cookies, Login Data, tokens
+data/deepseek_state.json
+data/deepseek_logged_in
+
+# --- Virtualenv / build artifacts ---
+.venv/
+venv/
+build/
+dist/
+*.exe
+*.spec
+
+# --- Python caches ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Editor / OS ---
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./.venv/Scripts/python.exe -c \"import streamlit, pandas; print\\('core ok', streamlit.__version__\\)\")",
+      "Bash(./.venv/Scripts/python.exe -c \"import PyInstaller; print\\(PyInstaller.__version__\\)\")"
+    ]
+  }
+}

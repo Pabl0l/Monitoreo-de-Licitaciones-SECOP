@@ -1,0 +1,27 @@
+# --- Core ---
+streamlit>=1.40
+pandas>=2.2
+python-dotenv>=1.0
+
+# --- Scraping ---
+playwright>=1.48
+requests>=2.32
+beautifulsoup4>=4.12
+
+# --- PDF / texto ---
+pymupdf>=1.24
+python-docx>=1.1
+markdown>=3.6   # propuesta markdown -> HTML -> PDF (fitz.Story)
+
+# --- OCR (local, gratis) ---
+# PaddleOCR preferido; pytesseract fallback (requiere binario Tesseract instalado).
+paddleocr>=2.9
+paddlepaddle>=2.6
+pytesseract>=0.3.13
+pillow>=10.4
+
+# --- LLM local via Ollama (HTTP, sin SDK pago) ---
+httpx>=0.27
+
+# --- DeepSeek via Playwright (chat web, sin API key) ---
+playwright>=1.40
